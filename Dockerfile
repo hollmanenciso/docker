@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04.5
 MAINTAINER Hollman Enciso <hollman.enciso@gmail.com>
 #Upgrade the latest packages of ubuntu and install apache, php and some basic libs
 RUN apt-get update && apt-get -y dist-upgrade
